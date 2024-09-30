@@ -14,5 +14,33 @@
         "recruitment": "Recruitment",
         "communityListen": "Community Listening",
         "aboutUs": "About Us"
+    },
+    "cart": {
+        "title":"Drink cart",
+        "product":  "Product",
+        "image": "Image",
+        "quantity": "Quantity",
+        "topping": "Topping",
+        "price": "Price",
+        "action": "Action",
+        "method_payment": "Method payment:",
+        "choose_method": "Choose method",
+        "cod": "COD",
+        "total": "Total",
+        "checkout": "Checkout",
+        "remove": "Remove"
+    },
+    "sidebar": {
+        "menu": "MENU",
+        "groceries": "groceries"
+    },
+    "footer": {
+        "name_company": "Công ty TNHH Cộng Cà Phê",
+        "business_registration_number": "Business registration number:",
+        "issued_by": "issued by",
+        "on": "on",
+        "address": "Address:",
+        "phone_number": "Phone number:",
+        "email": "Email:"
     }
 }

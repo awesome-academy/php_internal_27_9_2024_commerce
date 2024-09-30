@@ -1,12 +1,12 @@
 <script lang="ts">
 import '../../assets/header.css' // Import file CSS mới
 import { defineComponent } from 'vue'
-import { useI18n } from 'vue-i18n';
+import { useI18n } from 'vue-i18n'
 
 export default defineComponent({
     components: {},
     setup() {
-        const { t } = useI18n();
+        const { t } = useI18n()
 
         return {
             t
@@ -20,7 +20,12 @@ export default defineComponent({
    <div class="hidden lg:block w-full mr-12">
       <ul class="flex flex-row-reverse gap-12">
          <li class="relative">
-            <a class="header-menu-item hover:text-green-900" href="#" target="_blank" rel="noreferrer">{{ t("header.menu") }}</a>
+            <router-link 
+               class="header-menu-item hover:text-green-900" 
+               to="/products" 
+               rel="noreferrer">
+                {{ t("header.menu") }}
+            </router-link>
             <div class="wrapDrop">
                <ul></ul>
             </div>
