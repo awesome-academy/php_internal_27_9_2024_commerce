@@ -18,12 +18,13 @@ export default defineComponent({
             <span class="imgPrd">
                 <img :src=product.image 
                     :alt=product.name
+                    class="max-w-[250px]"
                     style="background: 
                     url(&quot;https://cong-news.appwifi.com/wp-content/uploads/2023/02/cốt-dừa-đậu-xanh_1.jpg&quot;) 
                     center center / cover no-repeat;">
             </span>
-            <h2 class="itemTitle">{{ product.name }}</h2>
-            <span class="price">
+            <h2 class="itemTitle font-bold text-[#4c5b29]">{{ product.name }}</h2>
+            <span class="price font-medium text-[#4c5b29]">
                 {{product.price}} Đ
             </span>
         </a>

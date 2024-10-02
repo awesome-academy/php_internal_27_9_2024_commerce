@@ -26,7 +26,7 @@
         "method_payment": "Phương thức thanh toán:",
         "choose_method": "Chọn phương thức",
         "cod": "Thanh toán khi nhận hàng (COD)",
-        "total": "Tổng cộng",
+        "total": "Tổng cộng:",
         "checkout": "Thanh toán",
         "remove": "Xóa"
     },
@@ -42,5 +42,21 @@
         "address": "Địa chi:",
         "phone_number": "Số điện thoại:",
         "email": "Email:"
+    },
+    "product_detail": {
+        "add_cart": "Thêm vào giỏ hàng"
+    },
+    "order_list": {
+        "title": "Lịch sử đơn hàng",
+        "order_code": "Mã đơn hàng",
+        "order_time": "Thời gian đặt hàng",
+        "customer": "Khách hàng",
+        "total_amount": "Tổng tiền",
+        "order_status": "Trạng thái đơn hàng",
+        "action": "Hành động",
+        "show_detail": "Xem chi tiết",
+        "done": "Hoàn thành",
+        "in_progress": "Đang xử lý",
+        "order_detail": "Chi tiết đơn hàng"
     }
 }
