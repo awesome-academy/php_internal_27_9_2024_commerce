@@ -4,12 +4,15 @@ import ProductsView from '../views/ProductsView.vue'
 import MainLayout from '../components/layouts/MainLayout.vue'
 import PaymentLayout from '../components/layouts/PaymentLayout.vue'
 import CartView from '@/views/CartView.vue'
+import ProductDetailView from '@/views/ProductDetailView.vue'
+import OrderHistoryView from '@/views/OrderHistoryView.vue'
+import OrderDetailView from '@/views/OrderDetailView.vue'
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
         {
-            path: '/',
+            path: '/shop',
             name: 'home',
             component: MainLayout,
             children: [
@@ -26,14 +29,29 @@ const router = createRouter({
             ]
         },
         {
-            path: '/payment/',
+            path: '/',
             name: 'payment',
             component: PaymentLayout,
             children: [
                 {
-                    path: 'cart',
+                    path: 'payment/cart',
                     name: 'CartView',
                     component: CartView
+                },
+                {
+                    path: 'products/:id',
+                    name: 'ProductDetailView',
+                    component: ProductDetailView
+                },
+                {
+                    path: 'orders',
+                    name: 'OrderHistory',
+                    component: OrderHistoryView
+                },
+                {
+                    path: '/orders/:orderId',
+                    name: 'OrderDetail',
+                    component: OrderDetailView,
                 },
             ]
         },

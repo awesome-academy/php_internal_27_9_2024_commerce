@@ -26,7 +26,7 @@
         "method_payment": "Method payment:",
         "choose_method": "Choose method",
         "cod": "COD",
-        "total": "Total",
+        "total": "Total:",
         "checkout": "Checkout",
         "remove": "Remove"
     },
@@ -42,5 +42,21 @@
         "address": "Address:",
         "phone_number": "Phone number:",
         "email": "Email:"
+    },
+    "product_detail": {
+        "add_cart": "Add to cart"
+    },
+    "order_list": {
+        "title": "Order list",
+        "order_code": "Order code",
+        "order_time": "Order time",
+        "customer": "Customer",
+        "total_amount": "Total amount",
+        "order_status": "Order status",
+        "action": "Action",
+        "show_detail": "Show detail",
+        "done": "Done",
+        "in_progress": "In progress",
+        "order_detail": "Order detail"
     }
 }

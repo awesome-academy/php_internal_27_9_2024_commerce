@@ -6,9 +6,9 @@
 </script>
 
 <template>
-    <div>
+    <div class="flex flex-col min-h-screen">
         <HeaderSection />
-        <div class="flex justify-center min-w-[1028px]">
+        <div class="flex flex-grow justify-center min-w-[1028px] min-h-screen">
             <div class="flex justify-center gap-10 mt-6 px-2 py-6 w-[80%]">
                 <Sidebar />
                 <main>

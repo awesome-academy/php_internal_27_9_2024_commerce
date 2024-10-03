@@ -5,9 +5,9 @@
 </script>
 
 <template>
-    <div>
+    <div class="flex flex-col min-h-screen">
         <HeaderSection />
-        <div class="flex justify-center">
+        <div class="flex flex-grow justify-center">
             <main>
                 <RouterView />
             </main>
