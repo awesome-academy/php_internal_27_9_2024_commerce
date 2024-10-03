@@ -14,5 +14,33 @@
         "recruitment": "Tuyển dụng",
         "communityListen": "Cộng Lắng Nghe",
         "aboutUs": "Về Chúng Tôi"
+    },
+    "cart": {
+        "title": "Giỏ hàng đồ uống",
+        "product": "Sản phẩm",
+        "image": "Hình ảnh",
+        "quantity": "Số lượng",
+        "topping": "Topping",
+        "price": "Giá",
+        "action": "Hành động",
+        "method_payment": "Phương thức thanh toán:",
+        "choose_method": "Chọn phương thức",
+        "cod": "Thanh toán khi nhận hàng (COD)",
+        "total": "Tổng cộng",
+        "checkout": "Thanh toán",
+        "remove": "Xóa"
+    },
+    "sidebar": {
+        "menu": "Thực đơn",
+        "groceries": "Quầy mậu dịch"
+    },
+    "footer": {
+        "name_company": "Công ty TNHH Cộng Cà Phê",
+        "business_registration_number": "Mã số DN:",
+        "issued_by": "do",
+        "on": "cấp ngày",
+        "address": "Địa chi:",
+        "phone_number": "Số điện thoại:",
+        "email": "Email:"
     }
 }
